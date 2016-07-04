@@ -1,0 +1,63 @@
+html, body{
+  min-height:100%;
+  height: 100%;
+}
+header {
+  text-align: left;
+  color: white;
+  background-color: #0171c5;
+  font-family: myFirstFont;
+  font-size: 30px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(Calibri.woff);
+}
+ul{
+  list-style-type: none;
+}
+#folderssublist li:hover{
+  background-color: #e5e5e5;
+}
+form{
+  margin-top: 10px
+}
+select{
+  border: none; background-color: white; width: 20%; outline: none
+}
+#newh3{
+  display: inline;
+  position: relative;
+  top: 0px; left: 2px;
+  font-size: 20px;
+}
+
+#outlook{
+  background-image:url(https://a.gfx.ms/OLHdrLogo3.png);
+  margin-left: 8px;
+  background-position:-0px -0px;width:122px;height:34px;
+}
+#plus{
+  background-image:url(https://a.gfx.ms/h/command6.png);
+  background-position:-1px -1px;
+  margin-left: 80px;
+  width:26px;
+  height:26px;
+}
+#folderssublist.li{
+  width: 100px;
+}
+h6{
+  padding-left: 15px;
+}
+h5{
+  padding-left: 15px;
+}
+#aside{
+  padding-left: 0px;
+  background-color: #f1f1f1;
+  min-height: 100%; height: auto; height: 100%;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css" type="text/css">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <title></title>
+</head>
+<body>
+  <header cEEner-fluid">
+    <div class="row">
+      <span class="glyphicon glyphicon-th" style=" position: relative; top: 0px; left: 5px; font-size: 20px "></span>
+      <img class="is_img" id="outlook" src="https://a.gfx.ms/is/invis.gif">
+      <!--<span class="glyphicon glyphicon-plus-sign" style="position: relative; top: 2px; left: 20px; font-size: 20px; "></span>-->
+      <img class="is_img" id="plus" src="https://a.gfx.ms/is/invis.gif">
+      <h3 id="newh3">New</h3>
+    </div>
+  </header>
+
+  <div class="container-fluid" style="overflow: visible; min-height: 100%; height: 100%; padding-left: 0px">
+    <div id="aside" class="col-sm-2 text-left" style="padding-left: 0px;">
+      <ul class="col-sm-12">
+          <input class="form-control" style="margin-top: 10px; margin-left: 0px;" id="inputlg" type="text" placeholder="Search">
+        <li class="row">
+          <h5 id="folders">Folders</h5>
+            <ul  id="folderssublist">
+              <li class="row">
+                <h6>Inbox 455</h6>
+              </li>
+              <li class="row">
+                <h6>Archive</h6>
+              </li>
+              <li class="row">
+                <h6>Junk 18</h6>
+              </li>
+              <li class="row">
+                <h6>Drafts 5</h6>
+              </li>
+              <li class="row">
+                <h6>Sent</h6>
+              </li>
+              <li class="row">
+                <h6>Deleted</h6>
+              </li>
+              <li class="row">
+                <h6>Important 10</h6>
+              </li>
+              <li class="row">
+                <h6>rajabiseraji@outlook.com</h6>
+              </li>
+              <li class="row">
+                <h6 id="newfolder">New Folder</h6>
+              </li>
+            </ul>
+        </li>
+        <br>
+        <li class="row">
+          <h5>Categories</h5>
+          <ul id="folderssublist">
+            <li class="row">
+              <h6>Important</h6>
+            </li>
+            <li class="row">
+              <h6 id="newcat">New Category</h6>
+            </li>
+          </ul>
+        </li>
+
+      </ul>
+      <ul class="col-sm-12">
+
+      </ul>
+    </div>
+    <div class="col-sm-8">
+      <form>
+        <input type="checkbox" name="View all" value="All" style="display: inline"> <span>View:</span>
+        <select>
+          <option value="all"><h6>All</h6></option>
+          <option value="unread"><h6>Unread</h6></option>
+          <option value="contacts"><h6>Contacts</h6></option>
+          <option value="groups"><h6>Groups</h6></option>
+          <option value="newsletters"><h6>Newsletters</h6></option>
+          <option value="socialupdates"><h6>Social Updates</h6></option>
+          <option value="else"><h6>Everything Else</h6></option>
+        </select>
+        <br>
+        <hr>
+        <!--<input type="checkbox" name="vehicle2" value="Car">-->
+      </form>
+    </div>
+    <div class="col-sm-2">
+
+    </div>
+  </div>
+</body>
+</html>
